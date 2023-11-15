@@ -1,0 +1,257 @@
+/* RESET RULE */
+*{
+    padding: 0; 
+    margin: 0;
+    text-decoration: none; 
+    /* background-color: rgb(213, 218, 230);  */
+}
+
+.site-navbar {
+    color: rgb(216, 153, 71);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: end;
+    padding: 5px 0;
+}
+.site-navbar h1 {
+    font-family: 'Kalam', cursive;
+    font-size: 2.5rem;
+}
+
+.site-navbar nav {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.site-navbar a {
+    text-decoration: none;
+    color: inherit;
+}
+
+                                  /* Effects on hover */
+.site-navbar a:hover {
+    color: antiquewhite;
+    background-color: black;
+}
+                                 /* Background image */
+.site-navbar {
+    /* background-position: center; */
+    /* background-image: url("assets/Blue\ gradient\ background.jpg"); */
+    /* background-blend-mode: lighten;  */
+    background-image: url("assets/HOME/Dark\ blue\ background\ 90.png"); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 18rem;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: -12.0rem;
+}
+    /* Business Card image  */
+.biz-card {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 25%;
+    height: auto;
+    margin-bottom: 10px;
+}
+                                    /* Overview section */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    font-family: serif;
+    font-size: 1.6rem;
+    text-align: center;
+    max-width: 350px;
+    height: auto;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    color: rgb(39, 138, 165);
+    font-style: bold;
+    font-style: italic;
+}
+
+.section-intro {
+    margin-left: 50px;
+    margin-right: 60%;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    text-align: justify;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: bold;
+    font-size:large;
+    color: #404766;
+}
+
+.container-left {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 350px;
+    height: auto;
+    padding: 10px; 
+    /* justify-content: flex-start; */
+    align-items: flex-start;
+    margin-top: 5px;
+    margin-left: 70px;
+    margin-right: 25%;
+    margin-bottom: 2px;
+}
+.container-right {
+    display: flex;
+    flex-wrap: wrap;
+    /* max-width: 350px; */
+    height: auto;
+    padding: 20px;
+    /* justify-content: flex-start; */
+    align-items: flex-end;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: 5%;
+    margin-bottom: 3px;
+}
+
+    /* ADD CSS TO STYLE PARAGRAPH. FONT CHANGE, ETC. --> */
+.main-content {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 37%;
+}
+
+.job-impacts {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: start;
+    color: black;
+    margin-left: 75px;
+    margin-right: 25%;
+    margin-top: 6px;
+    /* margin-right: 66%; */
+}
+ 
+
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(216, 153, 71);
+    margin-top: 0px;
+    margin-left:auto;
+    margin-right: 0%;
+    margin-bottom: 1px;
+    font-size: large;
+}
+
+h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    color: rgb(216, 153, 71);
+    margin-top: 75px;
+    margin-left:12%;
+    margin-right: 66%;
+    margin-bottom: 13px;
+}
+
+h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    color: rgb(216, 153, 71);
+    margin-top: 65px;
+    margin-left:60px;
+    margin-bottom: 2px;
+}
+
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: start;
+    color: black;
+    margin-left: 75px;
+    margin-top: 6px;
+    /* margin-right: 66%; */
+}
+    
+.logo {
+    display: block;
+    max-width: 150px;
+    max-height: 63px;
+    margin-top: 10px;
+    margin-bottom: 2px;
+    margin-left:auto;
+    margin-right: 0%;
+}
+
+             /* Effects on hover */
+.container-right:hover .logo {
+    opacity: 0.5;
+}
+
+.BOLD {
+    font-size:large;
+    font-weight: bold;
+    margin-left: 60px;
+}
+    
+.BOLD-ITALICS {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: large;
+    font-style: italic;
+    margin-left: 60px;
+}
+.sub-content-1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    font-size:medium;
+    margin-left: 60px;
+}
+.sub-content-2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+    margin-left: 60px;
+}
+
+ul {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+  }
+  li {
+    padding-left: 1em;
+    text-indent: -1em;
+  }
+  li:before {
+    content: "!";
+    padding-right: 5px;
+  }
+  
+
+.Linkedin-icon {
+    display: block;
+    max-width: 90px;
+    height: auto;
+    margin-top: -20px;
+    margin-bottom: 60px;
+    margin-left: auto;
+    margin-right: 5%;
+}
+
+.Home-icon {
+    display: block;
+    max-width: 30px;
+    height: auto;
+    margin-top: 30px;
+    margin-bottom: 16px;
+    margin-left: 5%;
+    color: darkred;
+}
+
+                                    /* FOOTER */
+.site-footer {
+    background-color:#26272b;
+    padding: 30px;
+    font-size:24px;
+    text-align:center;
+    text-decoration: none;   
+    line-height:5px;
+    color:silver;
+}
+    

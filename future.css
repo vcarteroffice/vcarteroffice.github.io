@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    /* background-color: rgb(216, 216, 160); */
+    background-image: url("assets/FUTURE/Sunshine\ background\ 33\ \(+\).png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: auto;
+
+}
+
+.site-heading {
+    /* background-color: rgb(40, 40, 70); */
+    /* height: 80px; */
+    margin: auto;
+    font-style: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* padding: 0px 20px; */
+    margin-left: 0px;
+    margin-right: 0px;
+    /* margin-bottom: 1rem; */
+}
+
+h1 {
+    text-align: center;
+    color: rgb(40, 40, 70);
+    /* margin-top: 15px; */
+    margin-bottom: 10px;
+    font-size: 50px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 35px;
+    color: rgb(155, 57, 90);
+}
+h3 {
+    text-align: start;
+    font-size: 32px;
+    color: #404766;
+    margin-left: 10%;
+    margin-top: 5px;
+    margin-bottom: -15px;
+}
+h4 {
+    text-align: start;
+    font-size: 25px;
+    font-style: italic;
+    color: #404766;
+    margin-left: 12%;
+    margin-right: 10%;
+    margin-top: 5px;
+}
+
+p {
+    text-align: start;
+    font-size: 25px;
+    color: #404766;
+    margin-left: 12%;
+    margin-right: 10%;
+    margin-top: 5px;
+}
