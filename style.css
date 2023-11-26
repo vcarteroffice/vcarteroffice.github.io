@@ -219,7 +219,7 @@ ul {
     text-indent: -1em;
   }
   li:before {
-    content: "!";
+    /* content: "!"; */
     padding-right: 5px;
   }
   
